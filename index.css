@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    
+    display:flex;
+    background-color: black;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top:0%;
+    padding:1.5rem 3px;
+    border: 0;
+    outline: 0;
+    align-items: center;
+    padding-top: 3%;
+}
+ul{
+    display: flex;
+    gap: 3rem;
+}
+li{
+    display: flex;
+    list-style-type: none;
+    font-size: 20px;
+}
+a{
+
+    text-decoration: none;
+    color: darkgray;
+}
+a:hover{
+    transform:translateX(20%);
+    transition: 0.5s ease;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 10px white;
+    color:coral;
+}
+body{
+    background: color-mix(in srgb, rgb(0, 0, 0) 98%,blue 2%);
+}
+.portfolio{
+    color: rgb(255, 81, 0);
+    padding-left: 4rem;
+}
+.portfolio:hover{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+h1:hover{
+    font-weight: bolder;
+}
+.login-container{
+    display:flex;
+    width: 100%;
+    height: 100vh;
+}
+.btn{
+    background-color: rgb(255, 94, 0);
+    border-radius: 10%;
+    border:0;
+    outline: 0;
+    align-items: center;
+    text-align: center;
+    margin-right: 80px;
+    width: 7rem;
+    height: 3rem;
+    color: aliceblue;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.profile{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: darkgray;
+    padding-top:15rem;
+    padding-left:5rem;
+    font-size: 3rem;
+}
+.word{
+    display: flex;
+    flex-direction: column;
+}
+.job{
+    padding-left: -10%;
+    padding-top: 1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform:translateX(0%);
+
+}
+.job:hover {
+    transform:translateX(12%);
+    transition: 0.5s ease-in;
+    font-style:oblique;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: tomato;
+}
+.btn:hover{
+    background-color: green;
+}
+.circle{
+    display: flex;
+    border-radius: 50%;
+    width:500px;
+    background: radial-gradient(circle, rgb(204, 67, 67) 20%, blue 40%, rgb(170, 20, 20) 60%, yellow 80%, orange 100%);
+    height: 500px;
+    margin-left: 7rem;
+    margin-top: -4rem;
+    justify-content: center;
+    align-items: center;
+}
+.ima {
+    width: 70%;
+    border-radius: 50%;
+    transform: rotate(20deg);
+    justify-content: center;
+    border: 20px solid orange;
+    transition: border-color 0.5s;
+}
+
+.ima:hover {
+    border-color: rgba(255, 0, 0, 0.5);
+    transform: rotate(20deg) scale(1.1); 
+}
+
+.circle:hover {
+    background: radial-gradient(circle, rgb(67, 167, 204) 20%, rgb(204, 255, 0) 40%, rgb(170, 20, 113) 60%, rgb(255, 0, 0) 80%, orange 100%);
+}
