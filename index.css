@@ -129,9 +129,24 @@ h1:hover{
     background: radial-gradient(circle, rgb(67, 167, 204) 20%, rgb(204, 255, 0) 40%, rgb(170, 20, 113) 60%, rgb(255, 0, 0) 80%, orange 100%);
 }
 .contact{
-    display:block;
-    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    gap:2rem;
+    
 }
 .con-btn{
     background-color: aliceblue;
+    width:10% ;
+    border-radius: 10%;
+    height:3rem;
+    padding: 3px;
+    
+} 
+.res-btn{
+    background-color: aliceblue;
+    border-radius: 10%;
+    height:3rem;
+    padding: 2px;
+   
 }
