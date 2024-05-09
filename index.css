@@ -144,8 +144,10 @@ h1:hover{
     border-radius: 10%;
     height:3rem;
     padding: 3px;
-    
-
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-stretch: expanded;
+    font-weight: bolder;
     
 } 
 .res-btn{
@@ -166,15 +168,40 @@ h1:hover{
     background-color: darkgray;
 }
 .social{
+    display: flex;
     background-color: black;
     margin-top: 5rem;
-    margin-left: 1rem;
-    width:43%;
-    height:10vh;
-    border:2px solid darkgrey;
-    border-radius: 5%;
+    width:40%;
+    height:11vh;
+    padding: 10px;
+    padding:2rem;
+    align-items: center;
+    justify-items: center;
+    border:4px solid darkgrey;
+    border-radius: 10%;
     border-style: double;
 }
-.insta{
-    background-color: darkgrey;
+.insta-logo{
+    margin-top: 5%;
+    width:20%;
+    border:darkgrey solid 3px;
+    border-radius: 10%;
+    padding: 4px;
+}
+.box{
+    display: flex;
+    background-color: rgb(35, 35, 37);
+    width:70%;
+    height:17vh;
+    padding: 1rem;
+    margin-bottom: 5rem;
+    border-radius: 3%;
+    justify-content: space-between;
+}
+.exp{
+    color:orangered;
+}
+.exp-name{
+    color: white;
+    font-size: 30px;
 }
