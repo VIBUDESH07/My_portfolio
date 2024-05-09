@@ -240,15 +240,24 @@ h1:hover{
     border-radius: 20%;
     align-items: center;
     padding-top: 2rem;
+    padding: 1rem;
     
 }
 .pro-skill{
     color:orangered;
-    font-family:'Lucida Sans Unicode';
+    font-family: 'Arial Narrow';
+    
 }
 .pro-skill:hover{
     color:rgb(255, 0, 0);
     font-weight:600;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     transition: 0.5 ease-in;
+}
+.pro-desc{
+    margin-top: 1rem;
+    color:azure;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    letter-spacing: 2px;
 }
