@@ -49,6 +49,7 @@ body{
 }
 .portfolio:hover{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition: 0.7 ease;
 
 }
 h1:hover{
@@ -163,4 +164,17 @@ h1:hover{
 }
 .con-btn:hover{
     background-color: darkgray;
+}
+.social{
+    background-color: black;
+    margin-top: 5rem;
+    margin-left: 1rem;
+    width:43%;
+    height:10vh;
+    border:2px solid darkgrey;
+    border-radius: 5%;
+    border-style: double;
+}
+.insta{
+    background-color: darkgrey;
 }
