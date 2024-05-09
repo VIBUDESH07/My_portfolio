@@ -18,6 +18,7 @@
     outline: 0;
     align-items: center;
     padding-top: 3%;
+    z-index: 100;
 }
 ul{
     display: flex;
@@ -221,4 +222,33 @@ h1:hover{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     transform: scale(1.1);
     transition: 0.5s ease;
+}
+.skills{
+    display:flex;
+    justify-content: space-between;
+    height:40vh;
+    width:70%;
+    
+    padding: 2rem;
+}
+.profession{
+    display:flex;
+    flex-direction: column;
+    width:30%;
+    height:30vh;
+    background-color: rgb(46, 41, 41);
+    border-radius: 20%;
+    align-items: center;
+    padding-top: 2rem;
+    
+}
+.pro-skill{
+    color:orangered;
+    font-family:'Lucida Sans Unicode';
+}
+.pro-skill:hover{
+    color:rgb(255, 0, 0);
+    font-weight:600;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition: 0.5 ease-in;
 }
