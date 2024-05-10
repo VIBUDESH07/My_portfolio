@@ -261,3 +261,9 @@ h1:hover{
     font-size: large;
     letter-spacing: 2px;
 }
+.project{
+    display: flex;
+    height:30vh;
+    width:70%;
+    background-color: darkgray;
+}
