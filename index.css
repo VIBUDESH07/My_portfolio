@@ -280,5 +280,16 @@ h1:hover{
 }
 .pro-logo{
     width:10%;
-    
+
+}
+.footer{
+    display:flex;
+    flex-direction: column;
+    margin: 0;
+    border:0;
+    outline:0;
+    width:100%;
+
+    background-color: darkgrey;
+    height:45vh;
 }
