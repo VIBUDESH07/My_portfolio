@@ -23,6 +23,9 @@ def get_data():
     # Query data from MongoDB
     result = collection.find_one({"_id": 1})
     return jsonify(result)
+@app.route('/Email')
+def contact():
+    
 
 if __name__ == '__main__':
     app.run()
