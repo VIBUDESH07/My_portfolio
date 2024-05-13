@@ -14,10 +14,9 @@ collection = db["Order"]
 def index():
     return render_template('index.html')
 
-# Route to handle data retrieval from MongoDB
 @app.route('/data')
 def get_data():
-    # Insert data into MongoDB (for testing)
+   
     data = {"_id": 1, "name": "Alice", "age": 25}
     collection.insert_one(data)
 
