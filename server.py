@@ -36,7 +36,7 @@ def get_data():
 @app.route('/send_email')
 def send_email():
     # Sending email
-    msg = Message('Hello!', recipients=['recipient@example.com'])
+    msg = Message('Hello!', recipients=['vishal@gmail.com'])
     msg.body = 'This is a test email sent from Flask.'
     mail.send(msg)
     return 'Email sent successfully!'
