@@ -176,7 +176,7 @@ h1:hover{
     align-items: center;
     justify-items: center;
     border:4px solid darkgrey;
-    border-radius: 10%;
+    border-radius: 1rem;
     border-style: double;
 }
 .insta-logo{
