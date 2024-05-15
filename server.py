@@ -18,8 +18,6 @@ mail = Mail(app)
 client = pymongo.MongoClient("mongodb://localhost:27017/")
 db = client["mydatabase"]
 collection = db["Order"]
-
-# Route to serve the index.html file
 @app.route('/')
 def index():
     return render_template('index.html')
