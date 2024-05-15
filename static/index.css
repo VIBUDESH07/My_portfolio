@@ -238,6 +238,20 @@ h1:hover{
     align-items: center;
     padding-top: 2rem;
     padding: 1rem;
+    animation:slidein 1s forwards;
+
+    
+}
+@keyframes slidein {
+     from{
+        opacity:0;
+        transform: translateX(-100%);
+     }
+     to{
+        opacity: 1;
+        transform: translateX(0%);
+
+     }
     
 }
 .pro-skill{
