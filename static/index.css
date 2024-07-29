@@ -24,7 +24,7 @@ ul{
     display: flex;
     gap: 3rem;
 }
-li{
+.navbar li{
     display: flex;
     list-style-type: none;
     font-size: 20px;
