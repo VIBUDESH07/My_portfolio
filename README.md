@@ -8,11 +8,16 @@ This portfolio highlights my expertise in full-stack development. The backend is
 Full Stack Developer
 
 Backend: Python
+
 Database: MongoDB
+
 Frontend: HTML, CSS
 
 # Features
 Responsive design for all devices
+
 Dynamic project showcase
+
 Interactive user interface
+
 Seamless integration between frontend and backend
