@@ -6,6 +6,7 @@ This portfolio highlights my expertise in full-stack development. The backend is
 
 # Technologies
 Full Stack Developer
+
 Backend: Python
 Database: MongoDB
 Frontend: HTML, CSS
